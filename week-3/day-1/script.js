@@ -5,13 +5,13 @@
 // ---------- Step 1: Variables ----------
 // Example:
 // Create 3 variables using "let" or "const"
-const exampleName = "Taco Rocket";   // string (text)
-const exampleYears = 3;              // number
-const exampleIsOpen = true;          // boolean (true or false)
+const truckName = "Ninja Nachos";   // string (text)
+const truckYears = 3;              // number
+const truckIsOpen = true;          // boolean (true or false)
 
 // Log variables
-console.log(exampleName, exampleYears, exampleIsOpen);
-console.log(typeof exampleName);     // typeof tells you the type
+console.log(truckName, truckYears, truckIsOpen);
+console.log(typeof truckName);     // typeof tells you the type
 
 // TODO: Make 3 variables for YOUR truck: a name, a number, and a true/false.
 // TODO: console.log them, and log the typeof each one.
@@ -19,9 +19,9 @@ console.log(typeof exampleName);     // typeof tells you the type
 
 // ---------- Step 2: An array (a list) ----------
 // Example:
-const exampleMenu = ["taco", "burrito", "nachos"];
-console.log(exampleMenu[0]);         // first item: index 0
-console.log(exampleMenu.length);     // how many items
+const truckMenu = ["taco", "burrito", "nachos"];
+console.log(truckMenu[0]);         // first item: index 0
+console.log(truckMenu.length);     // how many items
 
 // TODO: Make an array of 3 or more things YOUR truck sells.
 // TODO: Log the first item, the last item, and how many items there are.
@@ -29,9 +29,10 @@ console.log(exampleMenu.length);     // how many items
 
 // ---------- Step 3: An object (one thing with details) ----------
 // Example:
-const exampleItem = { name: "taco", price: 4.5, spicy: true };
-console.log(exampleItem.name);       // dot notation
-console.log(exampleItem["price"]);   // bracket notation
+const truckItem = { name: "taco", price: 5, spicy: true };
+truckItem.price = 5;                 // change a property
+console.log(truckItem.name);       // dot notation
+console.log(truckItem["price"]);   // bracket notation
 
 // TODO: Make an object for one of YOUR menu items (name, price, spicy).
 // TODO: Log one property with dot notation and one with bracket notation.
